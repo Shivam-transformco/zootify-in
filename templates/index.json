@@ -1,0 +1,1682 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_banner_KdECd7": {
+      "type": "hero-banner",
+      "blocks": {
+        "slide_GA8zC4": {
+          "type": "slide",
+          "settings": {
+            "heading": "IRONCLAD CASE",
+            "subtext": "Magnetic Protection, Elevated",
+            "content_alignment": "left",
+            "heading_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "heading_size_desktop": 48,
+            "heading_size_mobile": 20,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 400,
+            "heading_subtext_spacing": 4,
+            "desktop_layout": "full",
+            "desktop_left_type": "image",
+            "desktop_right_type": "image",
+            "desktop_full_type": "image",
+            "desktop_full_image": "shopify://shop_images/BANNER_2_F_US.png",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/BANNER.png",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://products/ironclad-transparent-orange-magsafe-case-cover-for-iphone-17-pro-max"
+          }
+        },
+        "slide_mjYDLQ": {
+          "type": "slide",
+          "settings": {
+            "heading": "FROSTAND CASE",
+            "subtext": "Protection with a kick",
+            "content_alignment": "left",
+            "heading_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "heading_size_desktop": 48,
+            "heading_size_mobile": 20,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 500,
+            "heading_subtext_spacing": 4,
+            "desktop_layout": "full",
+            "desktop_left_type": "image",
+            "desktop_right_type": "image",
+            "desktop_full_type": "image",
+            "desktop_full_image": "shopify://shop_images/banner_blue_final_2.png",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/Group_4091.png",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://products/frostand-blue-frosted-magsafe-case-cover-with-kickstand-for-iphone-17-pro-max"
+          }
+        },
+        "slide_aDz4Ac": {
+          "type": "slide",
+          "settings": {
+            "heading": "Make your everyday carry more intentional",
+            "subtext": "RIdge leather-finish case built for everyday elegance",
+            "content_alignment": "left",
+            "heading_color": "#404040",
+            "subtext_color": "#404040",
+            "heading_size_desktop": 48,
+            "heading_size_mobile": 25,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 400,
+            "heading_subtext_spacing": 4,
+            "desktop_layout": "full",
+            "desktop_left_type": "image",
+            "desktop_right_type": "image",
+            "desktop_full_type": "image",
+            "desktop_full_image": "shopify://shop_images/Gemini_Generated_Image_gre1segre1segre1_copy.png",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/Gemini_Generated_Image_dc2er0dc2er0dc2e_copy.png",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://products/primo-orange-leather-premium-magsafe-case-cover-for-iphone-17-pro"
+          }
+        },
+        "slide_WaQFdL": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "<b>RIDGE Leather finish. Premium hold.</b>",
+            "subtext": "",
+            "content_alignment": "left",
+            "heading_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "heading_size_desktop": 48,
+            "heading_size_mobile": 28,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 400,
+            "heading_subtext_spacing": 12,
+            "desktop_layout": "split",
+            "desktop_left_type": "image",
+            "desktop_left_image": "shopify://shop_images/lifestyle1.png",
+            "desktop_right_type": "image",
+            "desktop_right_image": "shopify://shop_images/LIF3.png",
+            "desktop_full_type": "image",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/lifestyle1.png",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://products/ridge-grey-premium-modern-leather-texture-magsafe-case-cover-for-iphone-17-pro"
+          }
+        },
+        "slide_BeNqzx": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "IRONCLAD Metal accents. Made to stand out.",
+            "subtext": "",
+            "content_alignment": "left",
+            "heading_color": "#000000",
+            "subtext_color": "#ffffff",
+            "heading_size_desktop": 48,
+            "heading_size_mobile": 28,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 400,
+            "heading_subtext_spacing": 12,
+            "desktop_layout": "split",
+            "desktop_left_type": "image",
+            "desktop_left_image": "shopify://shop_images/LIFENEW2.png",
+            "desktop_right_type": "image",
+            "desktop_right_image": "shopify://shop_images/LIFENEW.png",
+            "desktop_full_type": "image",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/LIFENEW2.png",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/ironcladaura"
+          }
+        },
+        "slide_JaATGx": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "<b> FORGECRAFT Woven texture. Vintage feel.</b>",
+            "subtext": "",
+            "content_alignment": "left",
+            "heading_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "heading_size_desktop": 48,
+            "heading_size_mobile": 28,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 400,
+            "heading_subtext_spacing": 12,
+            "desktop_layout": "split",
+            "desktop_left_type": "image",
+            "desktop_left_image": "shopify://shop_images/Gemini_Generated_Image_2cplqb2cplqb2cpl_1.png",
+            "desktop_right_type": "image",
+            "desktop_right_image": "shopify://shop_images/Gemini_Generated_Image_n0wxwan0wxwan0wx_1.png",
+            "desktop_full_type": "image",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/Gemini_Generated_Image_n0wxwan0wxwan0wx_1.png",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://products/forgecraft-brown-vintage-leather-grip-case-for-iphone-16-pro"
+          }
+        },
+        "slide_WMnHti": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "subtext": "",
+            "content_alignment": "left",
+            "heading_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "heading_size_desktop": 48,
+            "heading_size_mobile": 28,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 400,
+            "heading_subtext_spacing": 12,
+            "desktop_layout": "split",
+            "desktop_left_type": "image",
+            "desktop_left_image": "shopify://shop_images/Gemini_Generated_Image_8oys4j8oys4j8oys_b38e9718-dbaa-4ac3-92e4-9be41918f02a.png",
+            "desktop_right_type": "image",
+            "desktop_right_image": "shopify://shop_images/Gemini_Generated_Image_t39wgpt39wgpt39w_1_3191c985-c702-41ea-98a6-992f0f33ec3c.png",
+            "desktop_full_type": "image",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/Gemini_Generated_Image_t39wgpt39wgpt39w_1.png",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/back-covers"
+          }
+        }
+      },
+      "block_order": [
+        "slide_GA8zC4",
+        "slide_mjYDLQ",
+        "slide_aDz4Ac",
+        "slide_WaQFdL",
+        "slide_BeNqzx",
+        "slide_JaATGx",
+        "slide_WMnHti"
+      ],
+      "custom_css": [],
+      "name": "Hero – Dynamic",
+      "settings": {
+        "interval": 4000,
+        "mobile_banner_height": 80
+      }
+    },
+    "shop_by_category_MGfVXR": {
+      "type": "shop-by-category",
+      "blocks": {
+        "category_xbzzd6": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/Category_1_600b0050-dd65-467f-a673-43bf2d6316d6.png",
+            "title": "iPhone Covers",
+            "link": "shopify://pages/iphone-variants"
+          }
+        },
+        "category_qUADQD": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/Category_2_a1ffd19e-f8b6-4fdf-ba22-0a2c5ad6a21f.png",
+            "title": "MagSafe Wallet",
+            "link": "shopify://collections/magsafe-wallet"
+          }
+        },
+        "category_dqXL6q": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/Category_3_b58f5870-9304-4772-a8fa-f48e5dab029c.png",
+            "title": "ScreenGuards",
+            "link": "shopify://pages/screenguard-models"
+          }
+        },
+        "category_hKk9j9": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_1cpl0f1cpl0f1cpl_copy.png",
+            "title": "Tech Accessories",
+            "link": "shopify://collections/tech-accessories"
+          }
+        }
+      },
+      "block_order": [
+        "category_xbzzd6",
+        "category_qUADQD",
+        "category_dqXL6q",
+        "category_hKk9j9"
+      ],
+      "custom_css": [
+        ".arrow-line {display: none;}"
+      ],
+      "name": "Shop by category",
+      "settings": {
+        "heading": "SHOP BY CATEGORY",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_left": 0,
+        "padding_right": 0,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30,
+        "padding_left_mobile": 16,
+        "padding_right_mobile": 16
+      }
+    },
+    "hero_banner_qCNr7E": {
+      "type": "hero-banner",
+      "blocks": {
+        "slide_ggMTQd": {
+          "type": "slide",
+          "settings": {
+            "heading": "YOUR PHONE'S EVERYDAY  ARMOUR.",
+            "subtext": "Strong protection, smart functionality, <br> and a design that fits your lifestyle.",
+            "content_alignment": "left",
+            "heading_color": "#39393e",
+            "subtext_color": "#39393e",
+            "heading_size_desktop": 35,
+            "heading_size_mobile": 20,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 400,
+            "heading_subtext_spacing": 12,
+            "desktop_layout": "full",
+            "desktop_left_type": "image",
+            "desktop_right_type": "image",
+            "desktop_full_type": "image",
+            "desktop_full_image": "shopify://shop_images/banner_2_us_fin.png",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/banner_mob_fin.png",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://products/orbit-grip-orangeo-stand-magsafe-case-cover-for-iphone-17-pro-max"
+          }
+        },
+        "slide_DW4AAE": {
+          "type": "slide",
+          "settings": {
+            "heading": "CARRY SMART, <br> STAND EASY.",
+            "subtext": "Premium cases made for grip, protection, <br> and hands-free moments.",
+            "content_alignment": "left",
+            "heading_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "heading_size_desktop": 35,
+            "heading_size_mobile": 20,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 400,
+            "heading_subtext_spacing": 12,
+            "desktop_layout": "full",
+            "desktop_left_type": "image",
+            "desktop_right_type": "image",
+            "desktop_full_type": "image",
+            "desktop_full_image": "shopify://shop_images/banner_finl1.png",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/banner_finl22.png",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/frostand"
+          }
+        },
+        "slide_yLKG7L": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "subtext": "",
+            "content_alignment": "left",
+            "heading_color": "#000000",
+            "subtext_color": "#ffffff",
+            "heading_size_desktop": 48,
+            "heading_size_mobile": 28,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 400,
+            "heading_subtext_spacing": 12,
+            "desktop_layout": "full",
+            "desktop_left_type": "image",
+            "desktop_left_image": "shopify://shop_images/2s.webp",
+            "desktop_right_type": "image",
+            "desktop_right_image": "shopify://shop_images/Frame_26.jpg",
+            "desktop_full_type": "image",
+            "desktop_full_image": "shopify://shop_images/bannernew.png",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/bannernew.png",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://pages/iphone-variants"
+          }
+        },
+        "slide_J8tijz": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "subtext": "",
+            "content_alignment": "left",
+            "heading_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "heading_size_desktop": 48,
+            "heading_size_mobile": 28,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 400,
+            "heading_subtext_spacing": 12,
+            "desktop_layout": "full",
+            "desktop_left_type": "image",
+            "desktop_left_image": "shopify://shop_images/image_6.png",
+            "desktop_right_type": "image",
+            "desktop_right_image": "shopify://shop_images/image_213.png",
+            "desktop_full_type": "image",
+            "desktop_full_image": "shopify://shop_images/Gemini_Generated_Image_bjjprbjjprbjjprb_copy_603465cb-d183-4178-8a96-b415775798c1.png",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/Gemini_Generated_Image_bjjprbjjprbjjprb_copy_603465cb-d183-4178-8a96-b415775798c1.png",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/back-covers"
+          }
+        }
+      },
+      "block_order": [
+        "slide_ggMTQd",
+        "slide_DW4AAE",
+        "slide_yLKG7L",
+        "slide_J8tijz"
+      ],
+      "name": "Hero – Dynamic",
+      "settings": {
+        "interval": 4000,
+        "mobile_banner_height": 80
+      }
+    },
+    "product_list_EDUBdR": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_list_text_qK4EWG": {
+              "type": "_product-list-text",
+              "name": "t:names.collection_title",
+              "settings": {
+                "text": "<h3><strong>iPHONE COVERS</strong></h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--font-heading--family)",
+                "font_size": "1.25rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_list_button_K3ieHY": {
+              "type": "_product-list-button",
+              "name": "t:names.product_list_button",
+              "settings": {
+                "label": "View all",
+                "open_in_new_tab": false,
+                "style_class": "link",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_list_text_qK4EWG",
+            "product_list_button_K3ieHY"
+          ]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 0
+          },
+          "blocks": {
+            "product_card_gallery_hpki3q": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "portrait",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "group_jHUdWN": {
+              "type": "_product-card-group",
+              "name": "t:names.group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 4,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "padding-block-start": 24,
+                "padding-block-end": 24,
+                "padding-inline-start": 0,
+                "padding-inline-end": 24
+              },
+              "blocks": {
+                "product_title_gH3cpy": {
+                  "type": "product-title",
+                  "name": "t:names.product_title",
+                  "settings": {
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "enable_mobile_font_size": true,
+                    "mobile_font_size": 14,
+                    "mobile_line_height": "1.25",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "price_anAima": {
+                  "type": "price",
+                  "name": "t:names.product_price",
+                  "settings": {
+                    "show_sale_price_first": true,
+                    "show_installments": false,
+                    "show_tax_info": false,
+                    "enable_mobile_price_size": true,
+                    "mobile_price_font_size": 16,
+                    "mobile_compare_price_font_size": 14,
+                    "mobile_price_line_height": "1.25",
+                    "mobile_tax_note_font_size": 14,
+                    "mobile_tax_note_line_height": "1.25",
+                    "type_preset": "paragraph",
+                    "width": "100%",
+                    "alignment": "left",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "color": "var(--color-foreground)",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "swatches_eYcKAz": {
+                  "type": "swatches",
+                  "name": "t:names.swatches",
+                  "settings": {
+                    "product_swatches_alignment": "flex-start",
+                    "product_swatches_alignment_mobile": "flex-start",
+                    "hide_padding": false,
+                    "product_swatches_padding_top": 4,
+                    "product_swatches_padding_bottom": 0,
+                    "product_swatches_padding_left": 0,
+                    "product_swatches_padding_right": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "product_title_gH3cpy",
+                "price_anAima",
+                "swatches_eYcKAz"
+              ]
+            }
+          },
+          "block_order": [
+            "product_card_gallery_hpki3q",
+            "group_jHUdWN"
+          ]
+        }
+      },
+      "name": "Featured collection",
+      "settings": {
+        "collection": "back-covers",
+        "layout_type": "carousel",
+        "carousel_on_mobile": true,
+        "max_products": 10,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "44cqw",
+        "columns_gap": 12,
+        "rows_gap": 12,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
+        "gap": 28,
+        "color_scheme": "scheme-1",
+        "padding-block-start": 50,
+        "padding-block-end": 50
+      }
+    },
+    "hero_banner_yGm7Km": {
+      "type": "hero-banner",
+      "blocks": {
+        "slide_hLK3dh": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "subtext": "",
+            "content_alignment": "left",
+            "heading_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "heading_size_desktop": 35,
+            "heading_size_mobile": 20,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 400,
+            "heading_subtext_spacing": 12,
+            "desktop_layout": "full",
+            "desktop_left_type": "image",
+            "desktop_left_image": "shopify://shop_images/image_6.png",
+            "desktop_right_type": "image",
+            "desktop_right_image": "shopify://shop_images/image_213.png",
+            "desktop_full_type": "image",
+            "desktop_full_image": "shopify://shop_images/banner_wallet_hq.png",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/wallet_phone_sie.png",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/magsafe-wallet"
+          }
+        },
+        "slide_DYCX4N": {
+          "type": "slide",
+          "settings": {
+            "heading": "YOUR EVERYDAY WALLET, UPGRADED.",
+            "subtext": "A premium MagSafe wallet built for style, grip, and easy access on the go.",
+            "content_alignment": "left",
+            "heading_color": "#404040",
+            "subtext_color": "#41242c",
+            "heading_size_desktop": 35,
+            "heading_size_mobile": 20,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 400,
+            "heading_subtext_spacing": 12,
+            "desktop_layout": "full",
+            "desktop_left_type": "image",
+            "desktop_left_image": "shopify://shop_images/Zootify_banner_mobile.png",
+            "desktop_right_type": "image",
+            "desktop_right_image": "shopify://shop_images/Joy_days_mobile_banner_2_vertcal.png",
+            "desktop_full_type": "image",
+            "desktop_full_image": "shopify://shop_images/Gemini_Generated_Image_y2jv98y2jv98y2jv_copy.png",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/Gemini_Generated_Image_koueu8koueu8koue_copy.png",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/magsafe-wallet"
+          }
+        }
+      },
+      "block_order": [
+        "slide_hLK3dh",
+        "slide_DYCX4N"
+      ],
+      "name": "Hero – Dynamic",
+      "settings": {
+        "interval": 4000,
+        "mobile_banner_height": 80
+      }
+    },
+    "product_list_4jhXyy": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_list_text_kmng8N": {
+              "type": "_product-list-text",
+              "name": "t:names.collection_title",
+              "settings": {
+                "text": "<h4><strong>MAGSAFE WALLETS</strong></h4>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--font-primary--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_list_button_xYFw6M": {
+              "type": "_product-list-button",
+              "name": "t:names.product_list_button",
+              "settings": {
+                "label": "View all",
+                "open_in_new_tab": false,
+                "style_class": "link",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_list_text_kmng8N",
+            "product_list_button_xYFw6M"
+          ]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 0
+          },
+          "blocks": {
+            "product_card_gallery_LzBLrb": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "portrait",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_card_group_gLtKkt": {
+              "type": "_product-card-group",
+              "name": "t:names.group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 4,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "padding-block-start": 24,
+                "padding-block-end": 24,
+                "padding-inline-start": 0,
+                "padding-inline-end": 24
+              },
+              "blocks": {
+                "product_title_RFbAEE": {
+                  "type": "product-title",
+                  "name": "t:names.product_title",
+                  "settings": {
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "enable_mobile_font_size": true,
+                    "mobile_font_size": 14,
+                    "mobile_line_height": "1.25",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "price_DNrmiH": {
+                  "type": "price",
+                  "name": "t:names.product_price",
+                  "settings": {
+                    "show_sale_price_first": true,
+                    "show_installments": false,
+                    "show_tax_info": false,
+                    "enable_mobile_price_size": true,
+                    "mobile_price_font_size": 16,
+                    "mobile_compare_price_font_size": 14,
+                    "mobile_price_line_height": "1.25",
+                    "mobile_tax_note_font_size": 14,
+                    "mobile_tax_note_line_height": "1.25",
+                    "type_preset": "paragraph",
+                    "width": "100%",
+                    "alignment": "left",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "color": "var(--color-foreground)",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "swatches_TdPCYw": {
+                  "type": "swatches",
+                  "name": "t:names.swatches",
+                  "settings": {
+                    "product_swatches_alignment": "flex-start",
+                    "product_swatches_alignment_mobile": "flex-start",
+                    "hide_padding": false,
+                    "product_swatches_padding_top": 4,
+                    "product_swatches_padding_bottom": 0,
+                    "product_swatches_padding_left": 0,
+                    "product_swatches_padding_right": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "product_title_RFbAEE",
+                "price_DNrmiH",
+                "swatches_TdPCYw"
+              ]
+            }
+          },
+          "block_order": [
+            "product_card_gallery_LzBLrb",
+            "product_card_group_gLtKkt"
+          ]
+        }
+      },
+      "name": "Featured collection",
+      "settings": {
+        "collection": "magsafe-wallet",
+        "layout_type": "carousel",
+        "carousel_on_mobile": true,
+        "max_products": 5,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "44cqw",
+        "columns_gap": 12,
+        "rows_gap": 12,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
+        "gap": 28,
+        "color_scheme": "scheme-1",
+        "padding-block-start": 50,
+        "padding-block-end": 50
+      }
+    },
+    "product_list_GpPRqq": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "name": "t:names.header",
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": true,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_list_text_FBNiFg": {
+              "type": "_product-list-text",
+              "name": "t:names.collection_title",
+              "settings": {
+                "text": "<h3>{{ closest.collection.title }}</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_list_button_jbiUVH": {
+              "type": "_product-list-button",
+              "name": "t:names.product_list_button",
+              "settings": {
+                "label": "View all",
+                "open_in_new_tab": false,
+                "style_class": "link",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_list_text_FBNiFg",
+            "product_list_button_jbiUVH"
+          ]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 4
+          },
+          "blocks": {
+            "product_card_gallery_Tx4rRE": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "portrait",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_title_jjYc9n": {
+              "type": "product-title",
+              "name": "t:names.product_title",
+              "settings": {
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "enable_mobile_font_size": false,
+                "mobile_font_size": 16,
+                "mobile_line_height": "1.25",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "price_zR6Knn": {
+              "type": "price",
+              "name": "t:names.product_price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "enable_mobile_price_size": false,
+                "mobile_price_font_size": 16,
+                "mobile_compare_price_font_size": 14,
+                "mobile_price_line_height": "1.25",
+                "mobile_tax_note_font_size": 14,
+                "mobile_tax_note_line_height": "1.25",
+                "type_preset": "h6",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "color": "var(--color-foreground)",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_Tx4rRE",
+            "product_title_jjYc9n",
+            "price_zR6Knn"
+          ]
+        }
+      },
+      "disabled": true,
+      "name": "t:names.products_carousel",
+      "settings": {
+        "collection": "magsafe-wallet",
+        "layout_type": "carousel",
+        "carousel_on_mobile": true,
+        "max_products": 4,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "44cqw",
+        "columns_gap": 12,
+        "rows_gap": 12,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
+        "gap": 28,
+        "color_scheme": "scheme-1",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "product_list_yhgdNL": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_list_text_GKhTqf": {
+              "type": "_product-list-text",
+              "name": "t:names.collection_title",
+              "settings": {
+                "text": "<h4><strong>SWITCH TO ZOOTIFY</strong></h4>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--font-primary--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_list_text_GKhTqf"
+          ]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "disabled": true,
+          "static": true,
+          "settings": {
+            "product_card_gap": 0
+          },
+          "blocks": {}
+        }
+      },
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "collection": "magsafe-wallet",
+        "layout_type": "carousel",
+        "carousel_on_mobile": true,
+        "max_products": 10,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "44cqw",
+        "columns_gap": 12,
+        "rows_gap": 12,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
+        "gap": 0,
+        "color_scheme": "scheme-1",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "airport_ADWrze": {
+      "type": "airport",
+      "blocks": {
+        "airport_yNtaC8": {
+          "type": "airport",
+          "settings": {
+            "airport_name": "MUMBAI"
+          }
+        },
+        "airport_TbVA8V": {
+          "type": "airport",
+          "settings": {
+            "airport_name": "PUNE"
+          }
+        },
+        "airport_8mac6b": {
+          "type": "airport",
+          "settings": {
+            "airport_name": "AHMEDABAD"
+          }
+        },
+        "airport_NP3pL8": {
+          "type": "airport",
+          "settings": {
+            "airport_name": "KOLKATA"
+          }
+        },
+        "airport_wwrRhJ": {
+          "type": "airport",
+          "settings": {
+            "airport_name": "CHENNAI"
+          }
+        },
+        "airport_WDyHLf": {
+          "type": "airport",
+          "settings": {
+            "airport_name": "AGARTALA"
+          }
+        }
+      },
+      "block_order": [
+        "airport_yNtaC8",
+        "airport_TbVA8V",
+        "airport_8mac6b",
+        "airport_NP3pL8",
+        "airport_wwrRhJ",
+        "airport_WDyHLf"
+      ],
+      "name": "Airport Showcase – Full Width Minimal",
+      "settings": {
+        "main_heading": "SWITCH TO ZOOTIFY",
+        "main_subtext": "",
+        "image_left": "shopify://shop_images/4_5c5fd795-0606-45ee-8082-57bdd3092b84.png",
+        "image_right": "shopify://shop_images/Gemini_Generated_Image_kch7nvkch7nvkch7.png",
+        "box_heading": "Beyond Ordinary",
+        "box_text": "For professionals who demand more from everything they carry.",
+        "box_button_text": "EXPLORE PRODUCTS",
+        "box_button_link": "",
+        "bottom_tag": "AVAILABLE NATIONWIDE",
+        "bottom_heading": "Find us at India's major airports",
+        "bottom_text": "Seamlessly power through your journey with accessories designed for the modern professionals."
+      }
+    },
+    "offer_carousal_ti3KTi": {
+      "type": "offer-carousal",
+      "blocks": {
+        "offer_RjHL9Y": {
+          "type": "offer",
+          "settings": {
+            "title": "EXTRA 10% OFF ON RBL BANK",
+            "subtitle": "Up to ₹500 on orders above ₹1999"
+          }
+        },
+        "offer_WcNEzP": {
+          "type": "offer",
+          "settings": {
+            "title": "EXTRA 10% OFF ON RBL BANK",
+            "subtitle": "Up to ₹500 on orders above ₹1999"
+          }
+        }
+      },
+      "block_order": [
+        "offer_RjHL9Y",
+        "offer_WcNEzP"
+      ],
+      "disabled": true,
+      "name": "Offer Strip",
+      "settings": {}
+    },
+    "177529975949e11fc1": {
+      "type": "_blocks",
+      "blocks": {
+        "instafeed_app_block_Ei3J9n": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 20,
+            "alignment": "left",
+            "instafeed_margin_top": 30,
+            "instafeed_margin_bottom": 71,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_Ei3J9n"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "carausal_CWPTxf": {
+      "type": "carausal",
+      "blocks": {
+        "video_nAwWhj": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Zootify - Animation 1080 x1920 - No Text Compressed.mp4"
+          }
+        },
+        "video_Tcp7rj": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/IMG_4960.MP4"
+          }
+        },
+        "video_FribEb": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/2.mp4"
+          }
+        },
+        "video_KM8UbD": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/11.mp4"
+          }
+        },
+        "video_jYef6i": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/1_332fcf91-28c1-4379-a0b5-8447fe2d6e4e.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_nAwWhj",
+        "video_Tcp7rj",
+        "video_FribEb",
+        "video_KM8UbD",
+        "video_jYef6i"
+      ],
+      "disabled": true,
+      "name": "Videos Slider",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "video_gap": 16
+      }
+    },
+    "lifestylevideos_QVUqn9": {
+      "type": "lifestylevideos",
+      "blocks": {
+        "image_grLTYK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Minimalism_in_its_most_photogenic_form....._zootify_zootifyiphonecovers_zootifylifestyle_zoot.jpg",
+            "product": "primoedge-black-luxe-leather-design-magsafe-case-for-iphone-15-pro"
+          }
+        },
+        "image_TVe9zD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Texture_so_good_you_can_almost_feel_it..._fyp_explore_zootify.jpg",
+            "product": "forgecraft-brown-vintage-leather-grip-case-for-iphone-16-pro"
+          }
+        },
+        "image_q7WYVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lowkey_obsessed_with_this_vibe..._fyp_explore_zootify.jpg",
+            "product": "forgecraft-titanium-gray-vintage-leather-grip-case-for-iphone-15-pro"
+          }
+        },
+        "image_Br36xT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Where_function_meets_a_softer_life._..._zootify_zootifyiphonecovers_zootifylifestyle_zootifyo.jpg",
+            "product": "primoedge-brown-luxe-leather-design-magsafe-case-for-iphone-16-pro"
+          }
+        }
+      },
+      "block_order": [
+        "image_grLTYK",
+        "image_TVe9zD",
+        "image_q7WYVH",
+        "image_Br36xT"
+      ],
+      "disabled": true,
+      "name": "Marquee Hover Section",
+      "settings": {
+        "heading": "LIFESTYLE WITH ZOOTIFY"
+      }
+    },
+    "hero_banner_KNnrWb": {
+      "type": "hero-banner",
+      "blocks": {
+        "slide_jMnxad": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "subtext": "",
+            "content_alignment": "left",
+            "heading_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "heading_size_desktop": 48,
+            "heading_size_mobile": 28,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 400,
+            "heading_subtext_spacing": 12,
+            "desktop_layout": "full",
+            "desktop_left_type": "image",
+            "desktop_left_image": "shopify://shop_images/ChatGPT_Image_Dec_30_2025_04_56_08_PM.png",
+            "desktop_right_type": "image",
+            "desktop_right_image": "shopify://shop_images/image_211.png",
+            "desktop_full_type": "image",
+            "desktop_full_image": "shopify://shop_images/Footer_banner_2.png",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/image_3.png",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "slide_CY7Qh4": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "subtext": "",
+            "content_alignment": "left",
+            "heading_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "heading_size_desktop": 48,
+            "heading_size_mobile": 28,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 400,
+            "heading_subtext_spacing": 12,
+            "desktop_layout": "full",
+            "desktop_left_type": "image",
+            "desktop_left_image": "shopify://shop_images/image_6.png",
+            "desktop_right_type": "image",
+            "desktop_right_image": "shopify://shop_images/image_213.png",
+            "desktop_full_type": "image",
+            "desktop_full_image": "shopify://shop_images/Frame_28.jpg",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/image_1.png",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_jMnxad",
+        "slide_CY7Qh4"
+      ],
+      "disabled": true,
+      "name": "Hero – Dynamic",
+      "settings": {
+        "interval": 4000,
+        "mobile_banner_height": 62
+      }
+    },
+    "icon_text_aCd3Tn": {
+      "type": "icon-text",
+      "blocks": {
+        "item_4J9UFD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/quality-assured.svg",
+            "text": "Quality Assured"
+          }
+        },
+        "item_p63QhM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/easy-returns.svg",
+            "text": "Easy Returns"
+          }
+        },
+        "item_ya4Pcc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/quick-delivery.svg",
+            "text": "QUICK DELIVERY"
+          }
+        }
+      },
+      "block_order": [
+        "item_4J9UFD",
+        "item_p63QhM",
+        "item_ya4Pcc"
+      ],
+      "disabled": true,
+      "name": "icon-with-text",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "hero_banner_KdECd7",
+    "shop_by_category_MGfVXR",
+    "hero_banner_qCNr7E",
+    "product_list_EDUBdR",
+    "hero_banner_yGm7Km",
+    "product_list_4jhXyy",
+    "product_list_GpPRqq",
+    "product_list_yhgdNL",
+    "airport_ADWrze",
+    "offer_carousal_ti3KTi",
+    "177529975949e11fc1",
+    "carausal_CWPTxf",
+    "lifestylevideos_QVUqn9",
+    "hero_banner_KNnrWb",
+    "icon_text_aCd3Tn"
+  ]
+}
