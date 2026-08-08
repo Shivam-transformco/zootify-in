@@ -336,11 +336,25 @@
                 "price",
                 "swatches_4339Te"
               ]
+            },
+            "review_dk8XCe": {
+              "type": "review",
+              "name": "t:names.product_review_stars",
+              "settings": {
+                "stars_style": "shaded",
+                "show_number": true,
+                "rating_color": "primary",
+                "type_preset": "paragraph",
+                "width": "100%",
+                "alignment": "left"
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "card-gallery",
-            "group"
+            "group",
+            "review_dk8XCe"
           ]
         }
       },
@@ -348,6 +362,7 @@
         "layout_type": "grid",
         "product_card_size": "medium",
         "mobile_product_card_size": "small",
+        "hide_quick_add": false,
         "enable_infinite_scroll": false,
         "products_per_page": 24,
         "product_grid_width": "centered",

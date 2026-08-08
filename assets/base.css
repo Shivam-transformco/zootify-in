@@ -4655,19 +4655,30 @@ product-recommendations .section-resource-list__content > *:first-child {
   gap: 8px;
 }
 
+.facets .checkbox__label {
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  flex-direction: row-reverse !important;
+  justify-content: space-between !important;
+  padding-inline-start: 0 !important;
+}
+
 .facets .checkbox__label-text {
   font-size: 12px !important;
   color: #555 !important;
-}
-
-.facets .checkbox__input {
-  width: 14px !important;
-  height: 14px !important;
+  padding-inline-start: 0 !important;
 }
 
 .facets .icon-checkmark {
   border-radius: 3px !important;
   border: 1px solid #cfcfcf !important;
+  flex-shrink: 0 !important;
+}
+
+.facets .checkbox__input {
+  width: 14px !important;
+  height: 14px !important;
 }
 
 .facets .checkbox__input:checked + .checkbox__label .icon-checkmark {

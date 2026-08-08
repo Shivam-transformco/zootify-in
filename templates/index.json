@@ -12,6 +12,63 @@
     "hero_banner_KdECd7": {
       "type": "hero-banner",
       "blocks": {
+        "slide_UUT9Lm": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "subtext": "",
+            "content_alignment": "left",
+            "heading_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "heading_size_desktop": 48,
+            "heading_size_mobile": 28,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 400,
+            "heading_subtext_spacing": 12,
+            "desktop_layout": "split",
+            "desktop_left_type": "image",
+            "desktop_right_type": "image",
+            "desktop_full_type": "image",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "slide_mjYDLQ": {
+          "type": "slide",
+          "settings": {
+            "heading": "FROSTAND CASE",
+            "subtext": "Protection with a kick",
+            "content_alignment": "left",
+            "heading_color": "#222222",
+            "subtext_color": "#222222",
+            "heading_size_desktop": 48,
+            "heading_size_mobile": 20,
+            "subtext_size_desktop": 16,
+            "subtext_size_mobile": 14,
+            "heading_font_weight": 700,
+            "subtext_font_weight": 500,
+            "heading_subtext_spacing": 4,
+            "desktop_layout": "full",
+            "desktop_left_type": "image",
+            "desktop_right_type": "image",
+            "desktop_full_type": "image",
+            "desktop_full_image": "shopify://shop_images/Gemini_Generated_Image_bxvwr5bxvwr5bxvw_copy_2.png",
+            "mobile_layout": "full",
+            "mobile_top_type": "image",
+            "mobile_bottom_type": "image",
+            "mobile_full_type": "image",
+            "mobile_full_image": "shopify://shop_images/Group4101cop.jpg",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://products/frostand-blue-frosted-magsafe-case-cover-with-kickstand-for-iphone-17-pro-max"
+          }
+        },
         "slide_GA8zC4": {
           "type": "slide",
           "settings": {
@@ -39,35 +96,6 @@
             "mobile_full_image": "shopify://shop_images/BANNER.png",
             "button_label": "SHOP NOW",
             "button_link": "shopify://products/ironclad-transparent-orange-magsafe-case-cover-for-iphone-17-pro-max"
-          }
-        },
-        "slide_mjYDLQ": {
-          "type": "slide",
-          "settings": {
-            "heading": "FROSTAND CASE",
-            "subtext": "Protection with a kick",
-            "content_alignment": "left",
-            "heading_color": "#ffffff",
-            "subtext_color": "#ffffff",
-            "heading_size_desktop": 48,
-            "heading_size_mobile": 20,
-            "subtext_size_desktop": 16,
-            "subtext_size_mobile": 14,
-            "heading_font_weight": 700,
-            "subtext_font_weight": 500,
-            "heading_subtext_spacing": 4,
-            "desktop_layout": "full",
-            "desktop_left_type": "image",
-            "desktop_right_type": "image",
-            "desktop_full_type": "image",
-            "desktop_full_image": "shopify://shop_images/banner_blue_final_2.png",
-            "mobile_layout": "full",
-            "mobile_top_type": "image",
-            "mobile_bottom_type": "image",
-            "mobile_full_type": "image",
-            "mobile_full_image": "shopify://shop_images/Group_4091.png",
-            "button_label": "SHOP NOW",
-            "button_link": "shopify://products/frostand-blue-frosted-magsafe-case-cover-with-kickstand-for-iphone-17-pro-max"
           }
         },
         "slide_aDz4Ac": {
@@ -225,8 +253,9 @@
         }
       },
       "block_order": [
-        "slide_GA8zC4",
+        "slide_UUT9Lm",
         "slide_mjYDLQ",
+        "slide_GA8zC4",
         "slide_aDz4Ac",
         "slide_WaQFdL",
         "slide_BeNqzx",
