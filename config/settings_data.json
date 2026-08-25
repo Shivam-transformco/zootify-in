@@ -13,7 +13,7 @@
     "logo_inverse": "shopify://shop_images/Phone_case_logo_PNG.png",
     "logo_height": 20,
     "logo_height_mobile": 15,
-    "favicon": "shopify://shop_images/Fevicon_PNG_22cddd98-858f-4693-9b00-95f945ad861f.png",
+    "favicon": "shopify://shop_images/ZOOTIFY_FAVICON.png",
     "type_body_font": "montserrat_n4",
     "type_subheading_font": "montserrat_n4",
     "type_heading_font": "montserrat_n4",
@@ -68,9 +68,7 @@
       "316487575649303945": {
         "type": "shopify://apps/easify-options/blocks/app-embed-block/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
         "disabled": false,
-        "settings": {
-          "theme_app_version": "v2"
-        }
+        "settings": {}
       },
       "17920835415960095625": {
         "type": "shopify://apps/swatch-king/blocks/variant-swatch-king/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
