@@ -143,10 +143,11 @@
 (function() {
   var coverModel = {{ cover_model | json }};
   var currentHandle = {{ product.handle | json }};
+  var currentTitle = {{ product.title | json }};
   var grouped = {};
 
   function getBrand(title) {
-    var t = title.toLowerCase();
+    var t = (title || '').toLowerCase();
     if (t.includes('iphone') || t.includes('ipad')) return 'Apple';
     if (t.includes('samsung') || t.includes('galaxy')) return 'Samsung';
     if (t.includes('pixel')) return 'Google';
@@ -154,46 +155,75 @@
     return 'Other';
   }
 
+  function normalizeModelName(value) {
+    var clean = (value || '').replace(/\s+/g, ' ').trim();
+
+    if (/\biphone\s*17\s*pro\s*max\b/i.test(clean)) return 'iPhone 17 Pro Max';
+    if (/\biphone\s*17\s*pro\b/i.test(clean)) return 'iPhone 17 Pro';
+    if (/\biphone\s*17\s*air\b/i.test(clean)) return 'iPhone 17 Air';
+    if (/\biphone\s*17\b/i.test(clean)) return 'iPhone 17';
+
+    return clean;
+  }
+
   function getModelOnly(title) {
-    var lower = title.toLowerCase();
+    var value = (title || '').trim();
+    var lower = value.toLowerCase();
     var lastIndex = lower.lastIndexOf(' for ');
+
     if (lastIndex !== -1) {
-      return title.slice(lastIndex + 5).trim();
+      value = value.slice(lastIndex + 5).trim();
     }
-    return title;
+
+    return normalizeModelName(value);
   }
 
-  // commented out — only needed when multiple brands exist
-  /*
-  function renderBrands() {
-    var list = document.getElementById('dsm-brand-list');
-    list.innerHTML = '';
-    Object.keys(grouped).forEach(function(brand) {
-      var li = document.createElement('li');
-      li.className = 'dsm-list-item';
-      li.textContent = brand;
-      li.addEventListener('click', function() { showModels(brand); });
-      list.appendChild(li);
-    });
+  function getFamilyKey(title) {
+    var value = (title || '').trim();
+    var lower = value.toLowerCase();
+    var lastIndex = lower.lastIndexOf(' for ');
+
+    if (lastIndex !== -1) {
+      value = value.slice(0, lastIndex).trim();
+    }
+
+    value = value.split(/[–—|:]/)[0].trim();
+
+    if (value.indexOf(' - ') !== -1) {
+      value = value.split(' - ')[0].trim();
+    }
+
+    var firstWord = value.split(/\s+/)[0] || value;
+    return firstWord.toLowerCase();
   }
 
-  function showBrands() {
-    document.getElementById('dsm-step-brand').style.display = 'block';
-    document.getElementById('dsm-step-model').style.display = 'none';
+  function modelSortRank(name) {
+    var ranks = {
+      'iphone 17': 10,
+      'iphone 17 air': 20,
+      'iphone 17 pro': 30,
+      'iphone 17 pro max': 40
+    };
+
+    var key = (name || '').toLowerCase();
+    return Object.prototype.hasOwnProperty.call(ranks, key) ? ranks[key] : 999;
   }
-  */
+
+  function sortModels(a, b) {
+    var rankA = modelSortRank(a.title);
+    var rankB = modelSortRank(b.title);
+
+    if (rankA !== rankB) return rankA - rankB;
+    return a.title.localeCompare(b.title, undefined, { numeric: true, sensitivity: 'base' });
+  }
 
   function fetchSiblings() {
-    // ✅ Return cached data if available
-    var cached = sessionStorage.getItem('dsm_' + coverModel);
-    if (cached) {
-      grouped = JSON.parse(cached);
-      showModels('Apple');
-      return;
-    }
+    var escapedCoverModel = String(coverModel || '')
+      .replace(/\\/g, '\\\\')
+      .replace(/"/g, '\\"');
 
     var query = `{
-      products(first: 20, query: "metafield:custom.cover_model:${coverModel}") {
+      products(first: 50, query: "metafield:custom.cover_model:${escapedCoverModel}") {
         edges {
           node {
             title
@@ -216,40 +246,71 @@
       var edges = (data.data && data.data.products && data.data.products.edges) || [];
 
       if (edges.length === 0) {
-        document.getElementById('dsm-model-list').innerHTML = '<li class="dsm-loading">No models found.</li>';
+        document.getElementById('dsm-model-list').innerHTML =
+          '<li class="dsm-loading">No models found.</li>';
         return;
       }
 
-      grouped = {};
-      edges.forEach(function(edge) {
-        var p = edge.node;
-        var brand = getBrand(p.title);
-        if (!grouped[brand]) grouped[brand] = [];
-        grouped[brand].push({
-          title: getModelOnly(p.title),
-          url: '/products/' + p.handle,
-          handle: p.handle
-        });
+      var currentFamily = getFamilyKey(currentTitle);
+
+      var sameFamilyEdges = edges.filter(function(edge) {
+        return getFamilyKey(edge.node.title) === currentFamily;
       });
 
-      // ✅ Save to session cache
-      sessionStorage.setItem('dsm_' + coverModel, JSON.stringify(grouped));
+      var usableEdges = sameFamilyEdges.length ? sameFamilyEdges : edges;
 
-      // Skip brand step — only Apple for now
-      // To re-enable: remove this line and uncomment renderBrands() below
+      grouped = {};
+      var seenByBrand = {};
+
+      usableEdges.forEach(function(edge) {
+        var p = edge.node;
+        var brand = getBrand(p.title);
+        var modelName = getModelOnly(p.title);
+        var modelKey = modelName.toLowerCase();
+
+        if (!grouped[brand]) grouped[brand] = [];
+        if (!seenByBrand[brand]) seenByBrand[brand] = {};
+
+        var existingIndex = seenByBrand[brand][modelKey];
+
+        var item = {
+          title: modelName,
+          url: '/products/' + p.handle,
+          handle: p.handle
+        };
+
+        if (existingIndex === undefined) {
+          seenByBrand[brand][modelKey] = grouped[brand].length;
+          grouped[brand].push(item);
+        } else if (p.handle === currentHandle) {
+          grouped[brand][existingIndex] = item;
+        }
+      });
+
+      Object.keys(grouped).forEach(function(brand) {
+        grouped[brand].sort(sortModels);
+      });
+
       showModels('Apple');
-      // renderBrands();
-
     })
     .catch(function() {
-      document.getElementById('dsm-model-list').innerHTML = '<li class="dsm-loading">Could not load models.</li>';
+      document.getElementById('dsm-model-list').innerHTML =
+        '<li class="dsm-loading">Could not load models.</li>';
     });
   }
 
   function showModels(brand) {
     var list = document.getElementById('dsm-model-list');
     list.innerHTML = '';
-    (grouped[brand] || []).forEach(function(p) {
+
+    var models = grouped[brand] || [];
+
+    if (models.length === 0) {
+      list.innerHTML = '<li class="dsm-loading">No models found.</li>';
+      return;
+    }
+
+    models.forEach(function(p) {
       var li = document.createElement('li');
       li.className = 'dsm-list-item' + (p.handle === currentHandle ? ' active' : '');
       li.textContent = p.title;
@@ -272,10 +333,8 @@
     if (e.target === this) document.getElementById('dsm-overlay').classList.remove('active');
   });
 
-  // commented out — only needed when multiple brands exist
-  // document.getElementById('dsm-back').addEventListener('click', showBrands);
-
-  // ✅ Pre-fetch in background on page load
+  // Intentionally no sessionStorage cache:
+  // corrected Shopify product/metafield data is used immediately.
   fetchSiblings();
 
 })();

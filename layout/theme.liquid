@@ -9,24 +9,40 @@
 
 
     <!-- Geo redirect script -->
+    <style id="geo-redirect-hide">
+      html { visibility: hidden; }
+    </style>
     <script>
       (function() {
+        var hideStyle = document.getElementById('geo-redirect-hide');
+        function showPage() {
+          if (hideStyle && hideStyle.parentNode) { hideStyle.parentNode.removeChild(hideStyle); }
+          document.documentElement.style.visibility = 'visible';
+        }
+
         // 1. Exclude search engine crawlers so SEO indexing is not broken
         var isBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent);
-        if (isBot) return;
+        if (isBot) { showPage(); return; }
 
         // 2. Prevent redirect loops — once redirected in this session, stop
-        if (sessionStorage.getItem('geo_redirect_done')) return;
+        if (sessionStorage.getItem('geo_redirect_done')) { showPage(); return; }
+
+        // 3. Safety net: never leave the page hidden if geo APIs stall
+        var fallbackTimer = setTimeout(showPage, 3000);
 
         function redirectIfNotIndia(countryCode) {
           if (countryCode && countryCode !== 'IN') {
+            clearTimeout(fallbackTimer);
             sessionStorage.setItem('geo_redirect_done', 'true');
             var fullPath = window.location.pathname + window.location.search + window.location.hash;
             window.location.replace('https://us.zootify.com' + fullPath);
+          } else {
+            clearTimeout(fallbackTimer);
+            showPage();
           }
         }
 
-        // 3. Use Shopify's browsing context endpoint (relative URL — works without window.Shopify being loaded)
+        // 4. Use Shopify's browsing context endpoint
         //    ?country[enabled]=true is required for the endpoint to return country data
         fetch('/browsing_context_suggestions.json?country[enabled]=true')
           .then(function(res) { return res.json(); })
@@ -42,7 +58,8 @@
               // Country not in Shopify's market list — fall back to IP API
               return fetch('https://ipapi.co/json/')
                 .then(function(res) { return res.json(); })
-                .then(function(ipData) { redirectIfNotIndia(ipData.country_code); });
+                .then(function(ipData) { redirectIfNotIndia(ipData.country_code); })
+                .catch(function() { showPage(); });
             }
           })
           .catch(function() {
@@ -50,7 +67,7 @@
             fetch('https://ipapi.co/json/')
               .then(function(res) { return res.json(); })
               .then(function(ipData) { redirectIfNotIndia(ipData.country_code); })
-              .catch(function(e) { console.warn('Geo redirect error:', e); });
+              .catch(function(e) { console.warn('Geo redirect error:', e); showPage(); });
           });
       })();
     </script>

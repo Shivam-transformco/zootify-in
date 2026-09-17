@@ -1,0 +1,513 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Title",
+          "settings": {
+            "text": "<h1>{{ closest.page.title }}</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "page-content": {
+          "type": "page-content",
+          "settings": {},
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "page-content"
+      ],
+      "disabled": true,
+      "settings": {
+        "content_direction": "column",
+        "gap": 15,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "samsung_NHzbrY": {
+      "type": "samsung",
+      "blocks": {
+        "model_aic4zA": {
+          "type": "model",
+          "settings": {
+            "model_name": "S24 Ultra",
+            "model_link": "shopify://collections/s24-ultra-screenguards"
+          }
+        },
+        "model_6frQzL": {
+          "type": "model",
+          "settings": {
+            "model_name": "S25 Ultra",
+            "model_link": "shopify://collections/s25-ultra-screenguards"
+          }
+        },
+        "model_FLfzmR": {
+          "type": "model",
+          "settings": {
+            "model_name": "Galaxy Z Fold 6",
+            "model_link": ""
+          }
+        },
+        "model_naCARj": {
+          "type": "model",
+          "settings": {
+            "model_name": "Galaxy Z Fold 6",
+            "model_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "model_aic4zA",
+        "model_6frQzL",
+        "model_FLfzmR",
+        "model_naCARj"
+      ],
+      "disabled": true,
+      "name": "Samsung Models Section",
+      "settings": {
+        "heading": "Choose Your Samsung Model"
+      }
+    },
+    "model_section_XnJVWB": {
+      "type": "model-section",
+      "blocks": {
+        "model_NRaxgq": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 13",
+            "model_link": "shopify://collections/iphone-13-screenguard"
+          }
+        },
+        "model_fzXmnC": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 13 Pro",
+            "model_link": "shopify://collections/iphone-13-pro-screenguard"
+          }
+        },
+        "model_tire3L": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 13 Pro Max",
+            "model_link": "shopify://collections/iphone-13-pro-max-screenguards"
+          }
+        },
+        "model_GUaiLC": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 14",
+            "model_link": "shopify://collections/iphone-14"
+          }
+        },
+        "model_XKWEHW": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 14 plus",
+            "model_link": "shopify://collections/iphone-14-plus-screenguards"
+          }
+        },
+        "model_8Cqa89": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 14 Pro",
+            "model_link": "shopify://collections/iphone-14-pro-screenguards"
+          }
+        },
+        "model_x8AEdm": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 14 Pro Max",
+            "model_link": "shopify://collections/iphone-14-pro-max-screenguards"
+          }
+        },
+        "model_e89Lky": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 15",
+            "model_link": "shopify://collections/iphone-15-screenguards"
+          }
+        },
+        "model_qbY44Y": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 15 Pro",
+            "model_link": "shopify://collections/iphone-15-pro-screenguards"
+          }
+        },
+        "model_dYUM6U": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 15 Pro Max",
+            "model_link": "shopify://collections/iphone-15-pro-max-screenguards"
+          }
+        },
+        "model_bBFYqp": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 16",
+            "model_link": "shopify://collections/iphone-16-screenguards"
+          }
+        },
+        "model_KDUcQW": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 16 Pro",
+            "model_link": "shopify://collections/iphone-16-pro-screenguards"
+          }
+        },
+        "model_qFyJLM": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 16 Pro Max",
+            "model_link": "shopify://collections/iphone-16-pro-max-screenguards"
+          }
+        },
+        "model_bUA9c9": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 17",
+            "model_link": "shopify://collections/iphone-17-screenguards"
+          }
+        },
+        "model_8HYgGF": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 17 Air",
+            "model_link": "shopify://collections/iphone-17-air-screenguards"
+          }
+        },
+        "model_nprCX7": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 17 Pro",
+            "model_link": "shopify://collections/iphone-17-pro-screenguards"
+          }
+        },
+        "model_WEMByD": {
+          "type": "model",
+          "settings": {
+            "model_name": "iPhone 17 Pro Max",
+            "model_link": "shopify://collections/iphone-17-pro-max-screenguards"
+          }
+        }
+      },
+      "block_order": [
+        "model_NRaxgq",
+        "model_fzXmnC",
+        "model_tire3L",
+        "model_GUaiLC",
+        "model_XKWEHW",
+        "model_8Cqa89",
+        "model_x8AEdm",
+        "model_e89Lky",
+        "model_qbY44Y",
+        "model_dYUM6U",
+        "model_bBFYqp",
+        "model_KDUcQW",
+        "model_qFyJLM",
+        "model_bUA9c9",
+        "model_8HYgGF",
+        "model_nprCX7",
+        "model_WEMByD"
+      ],
+      "disabled": true,
+      "name": "iPhone Models Section",
+      "settings": {
+        "heading": "Choose Your iPhone Model"
+      }
+    },
+    "zootify_animated_about_india_zGPdjb": {
+      "type": "zootify-animated-about-india",
+      "blocks": {
+        "story_i94Kk3": {
+          "type": "story",
+          "settings": {
+            "eyebrow": "WELCOME TO ZOOTIFY",
+            "heading": "Carry Things Worth Carrying.",
+            "heading_tag": "h2",
+            "body": "<p>We create refined everyday essentials for people whose lives are always in motion.<br/><br/>Each piece brings together considered design, dependable utility, and a clean aesthetic. Made to move naturally between work, travel, and everything the day brings. Because what you carry should add value every time you carry it.</p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "shopify://shop_images/Gemini_Generated_Image_8s0mql8s0mql8s0m.png",
+            "mobile_image": "shopify://shop_images/Gemini_Generated_Image_8s0mql8s0mql8s0m.png",
+            "image_alt": "",
+            "image_position_desktop": "center center",
+            "image_position_mobile": "center center",
+            "layout": "media_right",
+            "mobile_order": "text_first",
+            "vertical_alignment": "center",
+            "media_width": 46,
+            "media_height_desktop": 560,
+            "media_height_mobile": 520,
+            "text_max_width": 600,
+            "min_height_desktop": 640,
+            "padding_top_desktop": 100,
+            "padding_bottom_desktop": 100,
+            "padding_top_mobile": 64,
+            "padding_bottom_mobile": 64,
+            "text_align_desktop": "center",
+            "text_align_mobile": "center",
+            "heading_scale": 100,
+            "background_color": "#ffffff",
+            "eyebrow_color": "#222222",
+            "heading_color": "#222222",
+            "text_color": "#333333",
+            "button_background": "#111111",
+            "button_text_color": "#ffffff",
+            "button_border_color": "#111111",
+            "button_hover_background": "#ffffff",
+            "button_hover_text_color": "#111111",
+            "media_animation": "fade_up",
+            "text_animation": "fade_up",
+            "animation_delay": 0
+          }
+        },
+        "story_9jz4Eg": {
+          "type": "story",
+          "settings": {
+            "eyebrow": "OUR BEGINNINGS",
+            "heading": "A BETTER WAY TO CARRY",
+            "heading_tag": "h2",
+            "body": "<p>Zootify began with a simple question: why should everyday essentials feel ordinary or disposable?<br/><br/>We set out to create fewer, better products for the realities of modern life. Products that perform reliably, feel considered, and belong wherever the day leads. That belief continues to shape everything we create.</p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "shopify://shop_images/Gemini_Generated_Image_luoixiluoixiluoi.png",
+            "mobile_image": "shopify://shop_images/Gemini_Generated_Image_luoixiluoixiluoi.png",
+            "image_alt": "",
+            "image_position_desktop": "center center",
+            "image_position_mobile": "center center",
+            "layout": "media_left",
+            "mobile_order": "text_first",
+            "vertical_alignment": "center",
+            "media_width": 46,
+            "media_height_desktop": 560,
+            "media_height_mobile": 520,
+            "text_max_width": 600,
+            "min_height_desktop": 640,
+            "padding_top_desktop": 100,
+            "padding_bottom_desktop": 100,
+            "padding_top_mobile": 64,
+            "padding_bottom_mobile": 64,
+            "text_align_desktop": "center",
+            "text_align_mobile": "center",
+            "heading_scale": 100,
+            "background_color": "#ffffff",
+            "eyebrow_color": "#222222",
+            "heading_color": "#222222",
+            "text_color": "#333333",
+            "button_background": "#111111",
+            "button_text_color": "#ffffff",
+            "button_border_color": "#111111",
+            "button_hover_background": "#ffffff",
+            "button_hover_text_color": "#111111",
+            "media_animation": "fade_up",
+            "text_animation": "fade_up",
+            "animation_delay": 0
+          }
+        },
+        "story_qiTXzF": {
+          "type": "story",
+          "settings": {
+            "eyebrow": "DESIGNING WITH INTENT",
+            "heading": "PURPOSE IN EVERY DETAIL",
+            "heading_tag": "h2",
+            "body": "<p>We begin with how a product will be used, not simply how it will look.<br/><br/>Every form, material, and feature is considered for comfort, clarity, and function. Nothing is added without reason, and nothing important is overlooked. The result is thoughtful design that feels natural from the first use.</p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "shopify://shop_images/Gemini_Generated_Image_qewo9sqewo9sqewo_1.png",
+            "mobile_image": "shopify://shop_images/Gemini_Generated_Image_qewo9sqewo9sqewo_1.png",
+            "image_alt": "",
+            "image_position_desktop": "center center",
+            "image_position_mobile": "center center",
+            "layout": "media_right",
+            "mobile_order": "text_first",
+            "vertical_alignment": "center",
+            "media_width": 46,
+            "media_height_desktop": 560,
+            "media_height_mobile": 520,
+            "text_max_width": 600,
+            "min_height_desktop": 640,
+            "padding_top_desktop": 100,
+            "padding_bottom_desktop": 100,
+            "padding_top_mobile": 64,
+            "padding_bottom_mobile": 64,
+            "text_align_desktop": "center",
+            "text_align_mobile": "center",
+            "heading_scale": 100,
+            "background_color": "#ffffff",
+            "eyebrow_color": "#222222",
+            "heading_color": "#222222",
+            "text_color": "#333333",
+            "button_background": "#111111",
+            "button_text_color": "#ffffff",
+            "button_border_color": "#111111",
+            "button_hover_background": "#ffffff",
+            "button_hover_text_color": "#111111",
+            "media_animation": "fade_up",
+            "text_animation": "fade_up",
+            "animation_delay": 0
+          }
+        },
+        "story_7NnNfi": {
+          "type": "story",
+          "settings": {
+            "eyebrow": "QUALITY CRAFTSMANSHIP",
+            "heading": "CRAFTED TO GO THE DISTANCE",
+            "heading_tag": "h2",
+            "body": "<p>True quality reveals itself through the details you experience every day.<br/><br/>From material selection to construction and finishing, every element is carefully considered. We create products that feel refined today and remain dependable over time. Because something worth carrying should be made to stay with you.</p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "shopify://shop_images/aa_1.png",
+            "mobile_image": "shopify://shop_images/aa_1.png",
+            "image_alt": "",
+            "image_position_desktop": "center center",
+            "image_position_mobile": "center center",
+            "layout": "media_left",
+            "mobile_order": "text_first",
+            "vertical_alignment": "center",
+            "media_width": 46,
+            "media_height_desktop": 560,
+            "media_height_mobile": 520,
+            "text_max_width": 600,
+            "min_height_desktop": 640,
+            "padding_top_desktop": 100,
+            "padding_bottom_desktop": 100,
+            "padding_top_mobile": 64,
+            "padding_bottom_mobile": 64,
+            "text_align_desktop": "center",
+            "text_align_mobile": "center",
+            "heading_scale": 100,
+            "background_color": "#ffffff",
+            "eyebrow_color": "#222222",
+            "heading_color": "#222222",
+            "text_color": "#333333",
+            "button_background": "#111111",
+            "button_text_color": "#ffffff",
+            "button_border_color": "#111111",
+            "button_hover_background": "#ffffff",
+            "button_hover_text_color": "#111111",
+            "media_animation": "fade_up",
+            "text_animation": "fade_up",
+            "animation_delay": 0
+          }
+        }
+      },
+      "block_order": [
+        "story_i94Kk3",
+        "story_9jz4Eg",
+        "story_qiTXzF",
+        "story_7NnNfi"
+      ],
+      "name": "Animated About Story",
+      "settings": {
+        "page_background": "#ffffff",
+        "content_width": 1400,
+        "side_padding_desktop": 60,
+        "side_padding_mobile": 24,
+        "column_gap_desktop": 100,
+        "column_gap_mobile": 52,
+        "show_dividers": false,
+        "divider_color": "#e7e7e7",
+        "enable_image_hover": true,
+        "eyebrow_size_desktop": 13,
+        "eyebrow_size_mobile": 12,
+        "eyebrow_weight": "500",
+        "eyebrow_line_height": 1.3,
+        "eyebrow_letter_spacing": 1.8,
+        "heading_size_desktop": 42,
+        "heading_size_mobile": 34,
+        "heading_weight": "600",
+        "heading_line_height": 1.1,
+        "heading_letter_spacing": 0,
+        "body_size_desktop": 17,
+        "body_size_mobile": 16,
+        "body_weight": "400",
+        "body_line_height": 1.7,
+        "body_letter_spacing": 0,
+        "button_size_desktop": 14,
+        "button_size_mobile": 14,
+        "button_weight": "600",
+        "button_radius": 30,
+        "button_border_width": 1,
+        "button_padding_x_desktop": 24,
+        "button_padding_y_desktop": 12,
+        "button_padding_x_mobile": 24,
+        "button_padding_y_mobile": 12,
+        "show_hero": true,
+        "hero_image": "shopify://shop_images/Gemini_Generated_Image_fvf7wyfvf7wyfvf7_copy_fc5b08aa-d55e-4b66-bf0f-d9770312e11b.png",
+        "hero_mobile_image": "shopify://shop_images/Gemini_Generated_Image_fvf7wyfvf7wyfvf7_copy_fc5b08aa-d55e-4b66-bf0f-d9770312e11b.png",
+        "hero_height_desktop": 540,
+        "hero_height_mobile": 590,
+        "hero_position_desktop": "center center",
+        "hero_position_mobile": "center center",
+        "hero_overlay_color": "#000000",
+        "hero_overlay_opacity": 0,
+        "hero_eyebrow": "ZOOTIFY",
+        "hero_heading": "OUR STORY",
+        "hero_heading_tag": "h1",
+        "hero_eyebrow_color": "#FAFAFA",
+        "hero_heading_color": "#FFFDFD",
+        "hero_content_width": 700,
+        "hero_padding_desktop": 40,
+        "hero_padding_mobile": 24,
+        "hero_horizontal_desktop": "center",
+        "hero_vertical_desktop": "middle",
+        "hero_text_align_desktop": "center",
+        "hero_horizontal_mobile": "center",
+        "hero_vertical_mobile": "middle",
+        "hero_text_align_mobile": "center",
+        "hero_heading_size_desktop": 52,
+        "hero_heading_size_mobile": 42,
+        "hero_heading_weight": "600",
+        "hero_heading_line_height": 1,
+        "hero_heading_letter_spacing": 0,
+        "enable_animation": true,
+        "replay_animation": false,
+        "animation_duration": 800,
+        "animation_distance": 40,
+        "animation_easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "hero_animation": "fade_up",
+        "hero_animation_delay": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "samsung_NHzbrY",
+    "model_section_XnJVWB",
+    "zootify_animated_about_india_zGPdjb"
+  ]
+}
