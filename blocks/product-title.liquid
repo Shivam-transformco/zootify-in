@@ -37,7 +37,13 @@
     ref="productTitleLink"
     href="{{ closest.product.selected_or_first_available_variant.url }}"
   >
-    {% render 'text', fallback_text: product_title, block: block %}
+    {% comment %} Main product title is the page H1 (SEO fix, 3 Nov 2026); product cards keep their normal heading. {% endcomment %}
+    {% if request.page_type == 'product' and closest.product.id == product.id %}
+      {% capture title_html %}{% render 'text', fallback_text: product_title, block: block %}{% endcapture %}
+      {% render 'promote-h1', html: title_html %}
+    {% else %}
+      {% render 'text', fallback_text: product_title, block: block %}
+    {% endif %}
   </a>
 {% endif %}
 

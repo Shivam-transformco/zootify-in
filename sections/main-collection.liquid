@@ -76,7 +76,63 @@
   </div>
 </results-list>
 
+{% comment %}
+  Collection description shown below the product grid, matching us.zootify.com (added 3 Nov 2026).
+  Model collections (e.g. "iPhone 17 Pro Covers") get the heading "Designed for iPhone 17 Pro";
+  other collections get "About <collection title>".
+{% endcomment %}
+{%- if collection.description != blank -%}
+  {%- liquid
+    if collection.title contains 'iPhone' and collection.title contains 'Covers'
+      assign about_heading = collection.title | remove: ' Covers' | prepend: 'Designed for '
+    else
+      assign about_heading = collection.title | prepend: 'About '
+    endif
+  -%}
+  <div class="collection-about color-{{ section.settings.color_scheme }}">
+    <div class="collection-about__inner">
+      <h2 class="collection-about__heading"><strong>{{ about_heading | escape }}</strong></h2>
+      <div class="collection-about__text rte">{{ collection.description }}</div>
+    </div>
+  </div>
+{%- endif -%}
+
 {% stylesheet %}
+  .collection-about {
+    width: 100%;
+  }
+
+  .collection-about__inner {
+    max-width: var(--page-width, 1440px);
+    margin-inline: auto;
+    padding-inline: var(--page-margin, 16px);
+    padding-block: 24px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+  }
+
+  .collection-about__heading {
+    font-size: var(--font-h5--size, 1.125rem);
+    line-height: 1.3;
+    margin: 0;
+  }
+
+  .collection-about__text,
+  .collection-about__text p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .collection-about__text p {
+    margin: 0 0 12px;
+  }
+
+  .collection-about__text p:last-child {
+    margin-bottom: 0;
+  }
+
   .main-collection-grid {
     grid-column: var(--grid-column--mobile);
 

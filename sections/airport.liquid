@@ -1,6 +1,7 @@
 {% comment %}
 Airport Showcase Section
 Improved spacing + padding fixes
+Alt text now taken from each image's own alt (SEO fix, 3 Nov 2026)
 {% endcomment %}
 
 {% style %}
@@ -210,14 +211,14 @@ border-radius:4px;
         {% if section.settings.image_left != blank %}
           <img
             src="{{ section.settings.image_left | image_url: width: 2000 }}"
-            alt=""
+            alt="{{ section.settings.image_left.alt | escape }}"
             loading="lazy">
         {% endif %}
 
         {% if section.settings.image_right != blank %}
           <img
             src="{{ section.settings.image_right | image_url: width: 2000 }}"
-            alt=""
+            alt="{{ section.settings.image_right.alt | escape }}"
             loading="lazy">
         {% endif %}
 

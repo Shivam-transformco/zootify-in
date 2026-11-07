@@ -16,4 +16,10 @@
    </div>
  </button>
 </div>
+{% unless settings.hideFlow %}
+{% comment %} Hide Shopify express checkout buttons (Shop Pay, GPay etc.) next to GoKwik: they bypass GoKwik checkout. Added 3 Nov 2026. {% endcomment %}
+<style>
+  .cart__ctas .additional-checkout-buttons { display: none !important; }
+</style>
+{% endunless %}
 {% endif %}

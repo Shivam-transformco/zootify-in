@@ -1,0 +1,27 @@
+{% comment %}
+  hreflang between zootify.com (en-IN) and us.zootify.com (en-US) – US audit #6.
+  Tags are only output when the matching US page is known:
+  - Homepage: always paired with https://us.zootify.com/
+  - Products, collections and pages: paired only when the "US URL (hreflang)"
+    field (metafield custom.us_url) is filled in for that item in Shopify admin.
+  us.zootify.com carries the matching tags pointing back here.
+{% endcomment %}
+{%- liquid
+  assign zt_us_url = blank
+  case request.page_type
+    when 'index'
+      assign zt_us_url = 'https://us.zootify.com/'
+    when 'product'
+      assign zt_us_url = product.metafields.custom.us_url.value
+    when 'collection'
+      if collection
+        assign zt_us_url = collection.metafields.custom.us_url.value
+      endif
+    when 'page'
+      assign zt_us_url = page.metafields.custom.us_url.value
+  endcase
+-%}
+{%- if zt_us_url != blank -%}
+  <link rel="alternate" hreflang="en-in" href="{{ canonical_url }}">
+  <link rel="alternate" hreflang="en-us" href="{{ zt_us_url }}">
+{%- endif -%}

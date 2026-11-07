@@ -1,0 +1,27 @@
+{%- doc -%}
+  Turns the first heading (h2-h6) or paragraph in the given HTML into a plain h1. The surrounding
+  text block's type preset sets the visual size, so the title looks exactly as before (same as us.zootify.com).
+  Used for the main product and collection title so each page has one H1 for SEO. Added 3 Nov 2026;
+  updated the same day to drop the extra size class, which made titles smaller.
+
+  @param {string} html - Rendered title HTML
+{%- enddoc -%}
+{%- liquid
+  assign out = html
+  assign done = false
+  for n in (2..6)
+    assign open_tag = '<h' | append: n
+    if out contains open_tag
+      assign close_tag = '</h' | append: n | append: '>'
+      assign out = out | replace_first: open_tag, '<h1' | replace_first: close_tag, '</h1>'
+      assign done = true
+      break
+    endif
+  endfor
+  unless done or out contains '<h1'
+    if out contains '<p>'
+      assign out = out | replace_first: '<p>', '<h1>' | replace_first: '</p>', '</h1>'
+    endif
+  endunless
+  echo out
+-%}

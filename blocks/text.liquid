@@ -1,6 +1,34 @@
-
-
-{% render 'text', block: block %}
+{% comment %}
+  3 Nov 2026: on collection pages, the collection description is no longer shown in the header
+  (it is shown below the product grid instead, like us.zootify.com), and the collection title
+  text block is output as the page H1. On product pages, the product title text block is the H1.
+  Visual size is unchanged (set by the block's type preset).
+{% endcomment %}
+{% liquid
+  assign skip_block = false
+  assign make_h1 = false
+  assign block_plain = block.settings.text | strip_html | strip
+  if request.page_type == 'collection' and collection
+    assign desc_plain = collection.description | strip_html | strip
+    if desc_plain != blank and block_plain == desc_plain
+      assign skip_block = true
+    elsif block_plain != blank and block_plain == collection.title
+      assign make_h1 = true
+    endif
+  elsif request.page_type == 'product' and product
+    if block_plain != blank and block_plain == product.title
+      assign make_h1 = true
+    endif
+  endif
+%}
+{% unless skip_block %}
+  {% if make_h1 %}
+    {% capture title_html %}{% render 'text', block: block %}{% endcapture %}
+    {% render 'promote-h1', html: title_html %}
+  {% else %}
+    {% render 'text', block: block %}
+  {% endif %}
+{% endunless %}
 
 {% schema %}
 {

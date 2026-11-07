@@ -6,7 +6,12 @@
   {% render 'text', fallback_text: collection_title, block: block %}
 {% elsif closest.collection != blank %}
   {% assign collection_title = '<p>' | append: closest.collection.title | append: '</p>' %}
-  {% render 'text', fallback_text: collection_title, block: block %}
+  {% if request.page_type == 'collection' and closest.collection.id == collection.id %}
+    {% capture title_html %}{% render 'text', fallback_text: collection_title, block: block %}{% endcapture %}
+    {% render 'promote-h1', html: title_html %}
+  {% else %}
+    {% render 'text', fallback_text: collection_title, block: block %}
+  {% endif %}
 {% endif %}
 
 {% schema %}
